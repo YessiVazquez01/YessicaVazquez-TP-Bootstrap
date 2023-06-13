@@ -205,6 +205,70 @@ body{
     background:  #6AA531   ;
     cursor: pointer;
 }
+.header-ticket{
+    height: initial;
+}
+.linkNav_ticket:hover, .contenedorNav .navbar-nav .linkNav_ticket.active{
+    color: #fff;
+    background:  #6AA531   ;
+    border-radius: 4px;
+}
+.catelitos{
+    margin-top: 25px;
+}
+.contenedorCartelitos{
+    width: 60%;
+    height: 33vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.cardCatelitos{
+    padding: 15px;
+    display: inline-block;
+    background-color:white;
+    width:30%;
+    height:100%;
+    line-height: 1.5;
+}
+.azul{
+    border:2px solid rgb(59, 167, 247 );
+}
+.naranaja{
+    border:2px solid rgb(247, 201, 59 );
+}
+.cardCatelitos small{
+    color:  #70827c ;
+}
+.porcentaje{
+    font-weight: 700;
+    font-size: 30px;
+}
+.formularioTicket{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formularioTicket, .orador{
+    margin-top: 10px;
+}
+.formularioTicket h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.formularioTicket span{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.formularioTicket h2 .orador{
+    font-size: 1rem;
+}
+#totalPago {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
 footer{
     background: linear-gradient(to right,#194054 ,#174A63 ,#2B6683  );
     height: 15vh;
@@ -216,7 +280,7 @@ footer{
         height: 70vh;
     }
     .formulario .buttonFormulario {
-     width: initial;
+        width: initial;
     }
     .contenedorConferencia {
         height: initial;
@@ -254,6 +318,20 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    .contenedorCartelitos{
+        flex-direction: column;
+        height: initial;
+        width: initial;
+        margin: initial;
+    }
+    .cardCatelitos{
+        margin: auto;
+        display: inline-block;
+        background-color:white;
+        width:90%;
+        height:90%;
+        line-height: 1.5;
+    }
     footer{
         height: 40vh;
     }
@@ -271,6 +349,10 @@ footer{
         padding-right: 5rem;
         width: 90%;
     }
+    .hijoConferencia h1, .hijoConferencia .textoConferencia{
+        display: flex;
+        justify-content: center;
+    }
     .hijoConferencia .buttonConferencia{
         display: flex;
         justify-content: center;
@@ -281,6 +363,21 @@ footer{
     }
     .lugar{
         height:100%;
+    }
+    .catelitos{
+        margin-top: initial;
+    }
+    .contenedorCartelitos {
+        width: 90%;
+        height: 20vh;
+    }
+    .cardCatelitos{
+        margin: auto;
+        display: inline-block;
+        background-color:white;
+        width:70%;
+        height:initial;
+        line-height: 1.5;
     }
     footer{
         height: 40vh;
